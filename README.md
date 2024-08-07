@@ -6,6 +6,10 @@
 
 # Desafio Engenheiro de software - BTG Pactual
 
+## Objetivo
+Utilizar o RabbitMQ e consumir a mensagem. Projeto de estudo com base em conteúdo do youTube. Não foi focado em melhorias de estrutura de código do Framework Spring ou utilizar notations para performar melhor.
+Foco foi um escopo geral de consumir a mensagem e obter o endPoint na sequência.
+
 ## Escopo
 Processar pedidos e gerar relatório.
 
@@ -48,6 +52,8 @@ Exemplo da mensagem que deve ser consumida:
        ]
    }
 ```
+
+GET /customers/1/orders - Obter a lista de orders por Consumer
 
 
 5. Crie uma API REST, em que permita o consultar as seguintes informações:
