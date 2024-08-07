@@ -1,5 +1,6 @@
 package tech.buildrun.btgpactual.orderms.entities;
 
+import org.springframework.boot.autoconfigure.domain.EntityScan;
 import org.springframework.data.mongodb.core.index.Indexed;
 import org.springframework.data.mongodb.core.mapping.Document;
 import org.springframework.data.mongodb.core.mapping.Field;
@@ -61,7 +62,12 @@ public class OrderEntity {
         return items;
     }
 
-    public void setItems(List<OrderItem> items) {
-        this.items = items;
+    public BigDecimal getTotalOrder() {
+        BigDecimal sum = BigDecimal.ZERO;
+        for (OrderItem orderItem : items) {
+            sum = sum.add(orderItem.getSubTotal());
+        }
+        return sum;
     }
+
 }
