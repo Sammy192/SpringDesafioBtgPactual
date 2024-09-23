@@ -80,3 +80,7 @@ GET /customers/1/orders - Obter a lista de orders por Consumer
      - Demais itens que você julgar relevante (Framework ou técnicas de testes, metodologias, etc.)
      - Se foi utilizado o Docker, para montagem do Ambiente, publique em seu perfil do http://hub.docker.com as imagens finais
      - Cite no relatório: O seu perfil dockerHub e a(s) URL(s) onde se encontram as imagens geradas
+
+## Fonte do desafio:
+https://www.youtube.com/watch?v=e_WgAB0Th_I
+https://github.com/buildrun-tech/buildrun-desafio-backend-btg-pactual
