@@ -62,25 +62,6 @@ GET /customers/1/orders - Obter a lista de orders por Consumer
    - Lista de pedidos realizados por cliente
    
 
-6. Relatório Técnico explicando de forma sumarizada, considerando:
-   - Plano de Trabalho (previsto vs realizado)
-   - Caso haja algum desvio entre o planejamento original e a execução, explique o que houve.
-   - Caso o plano de trabalho foi seguido sem desvio, comente os motivos para esse resultado.
-   - Tecnologias utilizadas
-   - Linguagens, Versões, IDE's, SO's
-   - Diagrama de arquitetura
-   - Modelagem da base de dados
-   - Diagrama de implantação da solução
-   - Diagrama de infra com os recursos de cloud utilizados (máquina, SO, produtos específicos, etc.)
-   - Evidência de Testes funcionais da aplicação
-   - Publique os códigos gerados, em seu perfil do https://github.com/
-   - Cite no relatório: 
-     - O seu perfil gitHub e a(s) URL(s) onde se encontram os códigos gerados
-     - Referências utilizadas
-     - Demais itens que você julgar relevante (Framework ou técnicas de testes, metodologias, etc.)
-     - Se foi utilizado o Docker, para montagem do Ambiente, publique em seu perfil do http://hub.docker.com as imagens finais
-     - Cite no relatório: O seu perfil dockerHub e a(s) URL(s) onde se encontram as imagens geradas
-
 ## Fonte do desafio:
 https://www.youtube.com/watch?v=e_WgAB0Th_I
 
