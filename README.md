@@ -21,13 +21,11 @@ Tecnologias utilizadas
 * RabbitMQ
 * Docker
 
+  ![image](https://github.com/user-attachments/assets/a8bf6e36-e6e5-4883-b12a-e90612f764cf)
+
+
 ## Atividades
-1. Elabore e entregue um plano de trabalho.
-   - Crie suas atividades em tasks
-   - Estime horas
-2. Crie uma aplicação, na tecnologia de sua preferência (JAVA, DOTNET, NODEJS)
-3. Modele e implemente uma base de dados (PostgreSQL, MySQL, MongoDB).
-4. Crie um micro serviço que consuma dados de uma fila RabbitMQ e grave os dados para conseguir listar as informações:
+ Crie um micro serviço que consuma dados de uma fila RabbitMQ e grave os dados para conseguir listar as informações:
    - Valor total do pedido
    - Quantidade de Pedidos por Cliente
    - Lista de pedidos realizados por cliente
